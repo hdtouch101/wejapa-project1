@@ -1,0 +1,153 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.firstdiv {
+  margin: 5% 0 8%;
+}
+
+.col {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+p {
+  color: #808080;
+  font-family: 'Raleway', sans-serif;
+  padding: 5% 15% 2%;
+  line-height: 1.8;
+}
+p:hover {
+  cursor: pointer;
+}
+
+h2 {
+color: #f0542c;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.2rem;
+ font-weight: 100 !important;
+}
+h2:hover {
+  cursor: pointer;
+}
+
+.col4 {
+  margin: auto;
+}
+
+/* button */
+.button-inside {
+  position: relative;
+  padding: 30px 0 15px;
+  margin: 5px 0;
+}
+
+.connected {
+  text-align: left;
+}
+.input {
+  border-radius: 50px;
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  background-color:#f5fbff;
+  height: 50px;
+  padding-left: 20px;
+  color: #808080;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+#button {
+  border-radius: 60px;
+  position: absolute;
+  right: 4px;
+  border: none;
+  background-color: #f0542c;
+  color: #fff;
+  z-index: 2;
+   transform: translateX(2px);
+   padding: 8px 23px;
+   margin: 5px 3px 2px 0;
+   font-size: 17px;
+   font-weight: 500;
+}
+
+.button-text {
+  position: absolute;
+  color: #808080;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+  width: 100%;
+
+}
+
+/* icons */
+.icons {
+  margin: 10% auto 0;
+}
+
+i {
+  font-size: 1.2rem;
+  color: #f0542c;
+ padding: 0 5%;
+}
+
+i:hover {
+  background-color: #f0542c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icon {
+  border: 1px dashed #f0542c;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1%;
+}
+
+.icon:hover {
+  background-color: #f0542c;
+  cursor: pointer;
+}
+
+.instagram {
+  padding: 12px 16px;
+}
+
+.facebook {
+  padding: 12px 18px;
+}
+.twitter {
+  padding: 12px 15px;
+}
+.google{
+  padding: 12px;
+  }
+
+/* copyright */
+.copyright {
+  text-align: center;
+font-family: 'Raleway', sans-serif;
+}
+.copyright-text {
+  color: #919191;
+  font-size: 15px;
+  font-weight: 400;
+  width: 100%;
+  margin: 0 auto;
+}
+.copyright-icon {
+  padding:0;
+  font-size: 15px;
+  color: #919191;
+}
+.copyright-color {
+  color: #f0542c;
+}
+.copyright-texts {
+  text-align: center;
+}
