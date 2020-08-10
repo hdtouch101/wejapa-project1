@@ -1,0 +1,98 @@
+/**Bayo's section**/
+
+@font-face {
+    src: url(PaytoneOne-Regular.ttf);
+    font-family: Paytone One;
+}
+
+*{
+    margin:0;
+    padding:0;    
+}
+
+.container{
+    background-image: url('bed.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:625px;
+    font-family: Paytone One;
+    text-align: center;
+    justify-content: center;
+}
+
+.first{
+    position: absolute;
+    top:24%;
+    left:35%;
+    color:white;
+}
+
+.second{
+    font-size: 68px;
+    font-weight: bolder;
+}
+.third{
+    font-size: 25.3px;
+    padding-top: 13px;
+}
+
+.pause{
+    padding: 49px;
+    margin-left: 140px;
+    width:40px;
+    margin-top: 30px;
+    border-radius: 500px;
+    border:none;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+
+.triangle{
+    position:absolute;
+    width:0;
+    height:0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left:20px solid #fff;
+    top:300px;
+    left:198px;
+}
+
+
+
+@media(max-width:767px){
+    .container{
+        background-image: url('bed.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:608px;
+    }
+    .first{
+        top:120px;
+        left:93px;
+    }
+    .second{
+        font-size: 42px;
+    }
+
+    .third{
+        font-size: 26px;
+    }
+    .pause{
+        margin-left: 135px;
+    }
+    .triangle{
+        position:absolute;
+        width:0;
+        height:0;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left:20px solid #fff;
+        top:235px;
+        left:198px;
+    }
+    
+}
