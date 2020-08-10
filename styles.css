@@ -1,0 +1,135 @@
+                                                                                                    * {
+                                                                                                        margin: 0;
+                                                                                                        padding: 0;
+                                                                                                        outline: 0;
+                                                                                                        box-sizing: border-box;
+                                                                                                    }
+                                                                                                    
+                                                                                                    body {
+                                                                                                        font-family: 'Raleway', sans-serif;
+                                                                                                        font-weight: normal;
+                                                                                                        font-style: normal;
+                                                                                                    }
+                                                                                                    
+                                                                                                    body,
+                                                                                                    input,
+                                                                                                    button {
+                                                                                                        font-size: 16px;
+                                                                                                        font-family: 'Montserrat', sans-serif;
+                                                                                                    }
+                                                                                                    
+                                                                                                    button {
+                                                                                                        cursor: pointer;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .burger_text h3 {
+                                                                                                        font-size: 30px;
+                                                                                                        color: #1A0D01;
+                                                                                                        font-weight: 700;
+                                                                                                        font-family: "Montserrat", sans-serif;
+                                                                                                        line-height: 1.2em;
+                                                                                                        margin-bottom: .5rem;
+                                                                                                        margin-top: 0;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .burger_text p {
+                                                                                                        font-size: 16px;
+                                                                                                        font-weight: 400;
+                                                                                                        line-height: 28px;
+                                                                                                        margin-top: 16px;
+                                                                                                        margin-bottom: 6px;
+                                                                                                        color: #6E6E6E;
+                                                                                                        font-family: "Montserrat", sans-serif;
+                                                                                                        line-height: 1.5em;
+                                                                                                        text-align: left;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .burger_text span {
+                                                                                                        display: block;
+                                                                                                        font-weight: 700;
+                                                                                                        font-size: 24px;
+                                                                                                        color: #F0542C;
+                                                                                                        font-family: "Montserrat", sans-serif;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .best_burger {
+                                                                                                        padding-bottom: 115px;
+                                                                                                        padding-top: 140px;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .container {
+                                                                                                        width: 100%;
+                                                                                                        padding-right: 15px;
+                                                                                                        padding-left: 15px;
+                                                                                                        margin: 30px 100px;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .row {
+                                                                                                        margin-right: -15px;
+                                                                                                        margin-left: -15px;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .section_title span {
+                                                                                                        color: #F2C64D;
+                                                                                                        font-size: 30px;
+                                                                                                        font-weight: 400;
+                                                                                                        margin-bottom: 18px;
+                                                                                                        display: block;
+                                                                                                        font-family: "Pacifico", cursive;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .section_title h3 {
+                                                                                                        font-size: 50px;
+                                                                                                        font-weight: 700;
+                                                                                                        color: #1A0D01;
+                                                                                                        font-family: "Montserrat", sans-serif;
+                                                                                                        text-transform: uppercase;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .single {
+                                                                                                        margin-bottom: 35px;
+                                                                                                        display: flex;
+                                                                                                        align-items: center;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .burger-image {
+                                                                                                        border-radius: 50%;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .burger_text {
+                                                                                                        padding-left: 20px;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .item_link {
+                                                                                                        margin-top: 50px;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .item_link a {
+                                                                                                        display: block;
+                                                                                                        text-decoration: none;
+                                                                                                    }
+                                                                                                    
+                                                                                                    a.btn {
+                                                                                                        -webkit-border-radius: 50px;
+                                                                                                        -moz-border-radius: 50px;
+                                                                                                        border-radius: 50px;
+                                                                                                        padding: 22px 44px;
+                                                                                                        cursor: pointer;
+                                                                                                        background: #0000;
+                                                                                                        color: #F0542C !important;
+                                                                                                        border: 1px solid #F0542C;
+                                                                                                        width: 100%;
+                                                                                                        margin-top: 30px;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .btn:hover {
+                                                                                                        color: #fff !important;
+                                                                                                        background: #F0542C;
+                                                                                                    }
+                                                                                                    
+                                                                                                    .col-lg-12 {
+                                                                                                        -webkit-box-flex: 0;
+                                                                                                        -ms-flex: 0 0 100%;
+                                                                                                        flex: 0 0 100%;
+                                                                                                        max-width: 100%;
+                                                                                                    }
