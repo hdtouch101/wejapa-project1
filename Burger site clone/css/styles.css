@@ -1,0 +1,60 @@
+body {
+  font-family: 'Raleway', sans-serif;
+overflow-x: hidden;
+}
+.testimonial-area {
+  padding: 120px 0 115px 0;
+  background-color: white;
+  text-align: center;
+}
+
+/* first text ("testimonial") */
+.first-paragraph {
+  color:#f4c430;
+ font-family: 'Pacifico', cursive;
+ font-size: 2rem;
+}
+
+/* second text ("happy customers") */
+
+.second-heading {
+  font-weight: 800;
+  font-size: 3rem;
+
+}
+/* first section text style */
+.text-width {
+  padding:0 0 5% 0;
+  margin: 0;
+}
+
+/* second section text style */
+.lorem-text {
+  font-size:1.3rem;
+  /* width:610px;
+  height:96px; */
+  margin:0 auto;
+  text-align: center;
+}
+
+/* image of man */
+.man-image {
+  border-radius: 50%;
+  width:60px;
+  height:60px;
+  margin: 45px 0 10px 0;
+
+}
+
+/* Figcaption text */
+.fig-text {
+  font-weight: bold;
+  margin:0;
+}
+
+/* figcaption image */
+.fig-img {
+  width:150px;
+position: relative;
+bottom: 18px;
+}
